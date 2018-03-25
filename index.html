@@ -13,8 +13,8 @@
 	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
 	  <a class="navbar-brand" href="index.html">Home</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-  	</button>
+    	<span class="navbar-toggler-icon"></span>
+	  </button>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item">
@@ -126,7 +126,7 @@
 				rssfeed_no_items="0"; 
 				rssfeed_cache = "db8af42c49a79e39293fb8a142adddcc"; 
 			</script> 
-			<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+			<script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script> 
 			<!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
 			<div style="text-align:right; width:230px;">powered by <a href="http://www.surfing-waves.com" rel="noopener" target="_blank" style="color: black;font-size:10px">Surfing Waves</a></div> 
 			<!-- end sw-rss-feed code -->
@@ -138,6 +138,36 @@
 	<p>
 		Cubbie Blue Skies was created....blah blah blah. We are here to bring some positivity to the internet, and hopefully channel some of the magic that happens at Cubbie Blues and share it with the world.
 	</p>
+	<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+
+            <div class="panel panel-default" id="togglePanel">
+                <div class="panel-heading">
+                	 <h3 class="panel-title">
+                  	 Beers on Tap
+                  	</h3>
+                        <button type="button" class="btn btn-primary active" autocomplete="off" data-target="#a" id="btna">Santo Tower</button>
+                        <button type="button" class="btn btn-primary" autocomplete="off" data-target="#b" id="btnb">Banks Tower</button>
+                </div>
+                <div class="panel-body tab-content">
+                    <div class="tab-pane active" id="a">
+                        <p>
+                        	<img class="beerSwitch" src="assets/sunlightlogo.png"><img class="beerSwitch" src="assets/stonedelicious.jpg"> Bills Winter Warmer
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="b">
+                        <p>
+                        	<img class="beerSwitch" src="assets/hazelnut.jpg"><img class="beerSwitch" src="assets/guinness.jpg"><img class="beerSwitch" src="assets/312.jpg">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
 	<!--Right Rail need to see if we can get a vertical live scrollable feed of the untappd nearby feed-->
 	<!--Live feed of the Cubs score horizontally at the top-->
 	<!--Cubs standings block somewhere on the home page-->
@@ -145,6 +175,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
 

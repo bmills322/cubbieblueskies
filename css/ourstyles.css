@@ -1,3 +1,12 @@
+body {
+	background: linear-gradient(to right, rgb(218, 218, 218), rgb(226, 226, 226));
+}
+
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	padding-left: 10px
+}
+
 .bg-dark {
 	background-color: rgba(81,71,72,1)!important;
 }
@@ -20,15 +29,21 @@ img {
 	max-width: 100%;
 }
 
-h1 {
-	font-family: 'Berkshire Swash', cursive;
-	padding-left: 10px
-}
-
 .d-md-block {
 	background-color: rgba(140,140,140,.9);
 }
-
-body {
-	background: linear-gradient(to right, rgb(218, 218, 218), rgb(226, 226, 226));
+.beerSwitch {
+	max-width: 100px;
+	padding: 5px;
+	padding-top: 10px;
+	transition: transform 1s
 }
+
+.beerSwitch:hover {
+	transform: scale(1.2); 
+}
+
+/*#togglePanel {
+	padding: 10px;
+	border: 2px solid black;
+}*/
