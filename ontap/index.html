@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>What's on Tap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Beers on Tap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/ourstyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 <body>
-
+    <header class="banner">
+	</header>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="../index.html">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="../ontap/index.html">What's on Tap</a>
+              <ul class="dropdown-menu">
+                  <li>Past Beers</li>
+                  <li>Beer Reviews</li>
+              </ul>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Beers
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Past Beers at the Bar</a>
+	          <a class="dropdown-item" href="#">Our Reviews</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Expert Reviews</a> <!--This can include links to places like Beer Advocate -->
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="ontap/index.html">Photo Gallery</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="ontap/index.html">Upcoming Events</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+    <h1>On Tap at Cubbie Blue Skies</h1><br>
+    <div class="container">
+	  <div class="row">
+	    <div class="col-sm-12">
+            <p>
+                Here is where we show the beers currently on tap and give our thoughts on them. 
+            </p>
+        </div>
+        <div class="col-md-6">
+        <a class="ontap" href="http://www.stonebrewing.com/">
+            <img class="animated flip" src="../assets/stonedelicious.jpg">
+        </a>
+        <p>DBO: While I don't love IPA's, this one is pretty rad.</p>
+        </div>
+        <div class="col-md-6">
+        <a class="ontap" href="http://www.sunkingbrewing.com/">
+            <img class="animated flip" src="../assets/sunlightlogo.png">
+        </a>
+        <p>DBK: A beer that has had multiple appearances at CB's, this one is great for a warm spring day with a light taste and easy-drinking feel.</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

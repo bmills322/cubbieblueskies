@@ -29,6 +29,10 @@ img {
 	max-width: 100%;
 }
 
+a.ontap img {
+    max-width: 200px;
+}
+
 .d-md-block {
 	background-color: rgba(140,140,140,.9);
 }
@@ -36,7 +40,7 @@ img {
 	max-width: 100px;
 	padding: 5px;
 	padding-top: 10px;
-	transition: transform 1s
+	transition: transform 1s;
 }
 
 .beerSwitch:hover {
