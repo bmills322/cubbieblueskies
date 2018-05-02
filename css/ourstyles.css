@@ -29,8 +29,17 @@ img {
 	max-width: 100%;
 }
 
+.tapheader {
+	font-family: 'Berkshire Swash', cursive;
+}
+
 a.ontap img {
     max-width: 200px;
+    padding-bottom: 10px;
+}
+
+.taptext {
+	font-family: 'Oswald', sans-serif;
 }
 
 .d-md-block {
